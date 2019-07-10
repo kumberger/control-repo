@@ -15,3 +15,7 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'rtyler-jenkins', '1.7.0'
+mod 'puppetlabs-java', '4.1.0'
+mod 'puppet-archive', '4.1.0'
