@@ -5,7 +5,7 @@ class profile::jenkins::master (
 ) {
 
   class { 'jenkins':
-    configure_firewall => true,
+    configure_firewall => false,
     install_java       => false,
     port               => $jenkins_port,
     config_hash        => {
