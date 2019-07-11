@@ -25,7 +25,9 @@ File { backup => false }
 #
 # For more on node definitions, see: https://puppet.com/docs/puppet/latest/lang_node_definitions.html
 node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
+# /etc/puppetlabs/code/environments/production/manifests/site.pp
+lookup('classes', {merge => unique}).include
+# This is where you can declare classes for all nodes.
+# Example:
+#   class { 'my_class': }
 }
