@@ -35,4 +35,5 @@ node default{
 }
 node 'testy' {
   include jenkins
+  include vim
 }
