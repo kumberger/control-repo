@@ -33,3 +33,6 @@ File { backup => false }
 #}
 node default{
 }
+node 'testy' {
+  include vim
+}
