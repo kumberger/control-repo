@@ -32,5 +32,5 @@ File { backup => false }
 #   class { 'my_class': }
 #}
 node default{
- include 'vim'
+ include vim
 }
