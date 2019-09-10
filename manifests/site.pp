@@ -32,5 +32,5 @@ node default {
 #   class { 'my_class': }
 }
 node default{
- class { ’vim’ }
+ include 'vim'
 }
