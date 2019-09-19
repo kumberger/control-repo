@@ -16,8 +16,8 @@ mod 'puppetlabs/stdlib',      '4.25.1'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
+mod 'saz-vim', '2.7.0'
 mod 'rtyler-jenkins', '1.7.0'
 mod 'puppetlabs-java', '4.1.0'
 mod 'puppet-archive', '4.1.0'
-mod 'WhatsARanjit-vim', '0.3.0'
 #mod 'puppetlabs-apache', '5.0.0'
