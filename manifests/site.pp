@@ -33,7 +33,3 @@ File { backup => false }
 #}
 node default{
 }
-node 'testy' {
-  include jenkins
-  include vim
-}
